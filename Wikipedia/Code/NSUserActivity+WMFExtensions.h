@@ -1,3 +1,5 @@
+
+#import <CoreLocation/CoreLocation.h>
 @import Foundation;
 NS_ASSUME_NONNULL_BEGIN
 
@@ -42,6 +44,8 @@ extern NSString *const WMFNavigateToActivityNotification;
 - (nullable NSString *)wmf_searchTerm;
 
 - (nullable NSURL *)wmf_linkURL;
+
+- (nullable CLLocation *) wmf_location;
 
 - (NSURL *)wmf_contentURL;
 

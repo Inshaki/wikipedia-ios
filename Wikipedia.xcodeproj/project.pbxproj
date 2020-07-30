@@ -96,6 +96,32 @@
 		41FCAA3721C844CB001D8411 /* ReadingListEntryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FCAA3521C844CB001D8411 /* ReadingListEntryCollectionViewController.swift */; };
 		41FCAA3821C844CB001D8411 /* ReadingListEntryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FCAA3521C844CB001D8411 /* ReadingListEntryCollectionViewController.swift */; };
 		41FCAA3921C844CB001D8411 /* ReadingListEntryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FCAA3521C844CB001D8411 /* ReadingListEntryCollectionViewController.swift */; };
+		6608453A24D3209100028A38 /* CoordinationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608453924D3209100028A38 /* CoordinationRouter.swift */; };
+		6608453C24D322B000028A38 /* AddCoordinationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608453B24D322B000028A38 /* AddCoordinationPresenter.swift */; };
+		6608453E24D325BC00028A38 /* AddCoordinationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608453D24D325BC00028A38 /* AddCoordinationInteractor.swift */; };
+		6608454024D33DDA00028A38 /* DispatchMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608453F24D33DDA00028A38 /* DispatchMethods.swift */; };
+		6608454324D33E3100028A38 /* AddCoordinationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608454224D33E3100028A38 /* AddCoordinationRouter.swift */; };
+		6613882024D31342002CA35C /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613881F24D31342002CA35C /* Collection.swift */; };
+		6613882224D315C4002CA35C /* CoordinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613882124D315C4002CA35C /* CoordinationTableViewCell.swift */; };
+		6613882724D31628002CA35C /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613882624D31628002CA35C /* CellData.swift */; };
+		663FDB4F24D31B1100543D7C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663FDB4E24D31B1100543D7C /* main.swift */; };
+		66AFDC3D24D2EFC500ABAE8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFDC3C24D2EFC500ABAE8A /* AppDelegate.swift */; };
+		66AFDC3F24D2EFC500ABAE8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFDC3E24D2EFC500ABAE8A /* SceneDelegate.swift */; };
+		66AFDC4124D2EFC500ABAE8A /* CoordinationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFDC4024D2EFC500ABAE8A /* CoordinationListViewController.swift */; };
+		66AFDC4424D2EFC500ABAE8A /* Coordination.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66AFDC4224D2EFC500ABAE8A /* Coordination.storyboard */; };
+		66AFDC4624D2EFC800ABAE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66AFDC4524D2EFC800ABAE8A /* Assets.xcassets */; };
+		66AFDC4924D2EFC800ABAE8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66AFDC4724D2EFC800ABAE8A /* LaunchScreen.storyboard */; };
+		66AFDC5C24D2F66D00ABAE8A /* CoordinationListViper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFDC5B24D2F66D00ABAE8A /* CoordinationListViper.swift */; };
+		66AFDC6124D2F70200ABAE8A /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFDC6024D2F70200ABAE8A /* BasePresenter.swift */; };
+		66AFDC6324D2F81000ABAE8A /* CoordinationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFDC6224D2F81000ABAE8A /* CoordinationModule.swift */; };
+		66AFDC6524D2F92F00ABAE8A /* CoordinationListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFDC6424D2F92F00ABAE8A /* CoordinationListPresenter.swift */; };
+		66AFDC6724D2FADC00ABAE8A /* CoordinationListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFDC6624D2FADC00ABAE8A /* CoordinationListInteractor.swift */; };
+		66AFDC6924D3002E00ABAE8A /* CoordinationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFDC6824D3002E00ABAE8A /* CoordinationModel.swift */; };
+		66DA8C7924D3073D004D7D3D /* AddCoordinationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DA8C7824D3073D004D7D3D /* AddCoordinationModule.swift */; };
+		66DA8C7B24D3075B004D7D3D /* AddCoordinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DA8C7A24D3075B004D7D3D /* AddCoordinationViewController.swift */; };
+		66DA8C7D24D30796004D7D3D /* AddCoordinationViper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DA8C7C24D30796004D7D3D /* AddCoordinationViper.swift */; };
+		66DA8C7F24D3080D004D7D3D /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DA8C7E24D3080D004D7D3D /* AppAssembly.swift */; };
+		66DA8C8124D30893004D7D3D /* CoordinationRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DA8C8024D30893004D7D3D /* CoordinationRepo.swift */; };
 		670063AF22540AC500E4CE3B /* SectionEditorFindAndReplaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670063AE22540AC500E4CE3B /* SectionEditorFindAndReplaceTests.swift */; };
 		67059DB52260D034009811AA /* SchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67059DB42260D034009811AA /* SchemeHandler.swift */; };
 		67059DB62260D619009811AA /* SchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67059DB42260D034009811AA /* SchemeHandler.swift */; };
@@ -3300,6 +3326,34 @@
 		19A172FA6AE61E76FCEF4259 /* NSUserActivity+WMFExtensionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserActivity+WMFExtensionsTest.m"; sourceTree = "<group>"; };
 		41CCB67321CC1F9700206B47 /* SavedArticlesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedArticlesCollectionViewController.swift; sourceTree = "<group>"; };
 		41FCAA3521C844CB001D8411 /* ReadingListEntryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingListEntryCollectionViewController.swift; sourceTree = "<group>"; };
+		6608453924D3209100028A38 /* CoordinationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationRouter.swift; sourceTree = "<group>"; };
+		6608453B24D322B000028A38 /* AddCoordinationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoordinationPresenter.swift; sourceTree = "<group>"; };
+		6608453D24D325BC00028A38 /* AddCoordinationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoordinationInteractor.swift; sourceTree = "<group>"; };
+		6608453F24D33DDA00028A38 /* DispatchMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchMethods.swift; sourceTree = "<group>"; };
+		6608454224D33E3100028A38 /* AddCoordinationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoordinationRouter.swift; sourceTree = "<group>"; };
+		6613881F24D31342002CA35C /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		6613882124D315C4002CA35C /* CoordinationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationTableViewCell.swift; sourceTree = "<group>"; };
+		6613882624D31628002CA35C /* CellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
+		663FDB4E24D31B1100543D7C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		66AFDC3A24D2EFC500ABAE8A /* Ishak's Wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ishak's Wiki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66AFDC3C24D2EFC500ABAE8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66AFDC3E24D2EFC500ABAE8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66AFDC4024D2EFC500ABAE8A /* CoordinationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationListViewController.swift; sourceTree = "<group>"; };
+		66AFDC4324D2EFC500ABAE8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Coordination.storyboard; sourceTree = "<group>"; };
+		66AFDC4524D2EFC800ABAE8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66AFDC4824D2EFC800ABAE8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66AFDC4A24D2EFC800ABAE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66AFDC5B24D2F66D00ABAE8A /* CoordinationListViper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationListViper.swift; sourceTree = "<group>"; };
+		66AFDC6024D2F70200ABAE8A /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		66AFDC6224D2F81000ABAE8A /* CoordinationModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationModule.swift; sourceTree = "<group>"; };
+		66AFDC6424D2F92F00ABAE8A /* CoordinationListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationListPresenter.swift; sourceTree = "<group>"; };
+		66AFDC6624D2FADC00ABAE8A /* CoordinationListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationListInteractor.swift; sourceTree = "<group>"; };
+		66AFDC6824D3002E00ABAE8A /* CoordinationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationModel.swift; sourceTree = "<group>"; };
+		66DA8C7824D3073D004D7D3D /* AddCoordinationModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoordinationModule.swift; sourceTree = "<group>"; };
+		66DA8C7A24D3075B004D7D3D /* AddCoordinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoordinationViewController.swift; sourceTree = "<group>"; };
+		66DA8C7C24D30796004D7D3D /* AddCoordinationViper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoordinationViper.swift; sourceTree = "<group>"; };
+		66DA8C7E24D3080D004D7D3D /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
+		66DA8C8024D30893004D7D3D /* CoordinationRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationRepo.swift; sourceTree = "<group>"; };
 		670063AE22540AC500E4CE3B /* SectionEditorFindAndReplaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionEditorFindAndReplaceTests.swift; sourceTree = "<group>"; };
 		67059DB42260D034009811AA /* SchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemeHandler.swift; sourceTree = "<group>"; };
 		6706A21622925FD2004774E2 /* InfoBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBannerView.swift; sourceTree = "<group>"; };
@@ -4773,6 +4827,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		66AFDC3724D2EFC500ABAE8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0606EAB20AA6FF0006EC6B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -5792,6 +5853,104 @@
 				B09B03EC1CE0FB4200009083 /* PageHistorySection.swift */,
 			);
 			name = PageHistory;
+			sourceTree = "<group>";
+		};
+		6608454124D33E0F00028A38 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				66AFDC5A24D2F65900ABAE8A /* CoordinationList */,
+				66DA8C7724D30724004D7D3D /* AddCoordination */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6613881E24D31335002CA35C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6613881F24D31342002CA35C /* Collection.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6613882524D315DA002CA35C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6613882124D315C4002CA35C /* CoordinationTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		66AFDC3B24D2EFC500ABAE8A /* Ishak's Wiki */ = {
+			isa = PBXGroup;
+			children = (
+				66DDF26624D3751B000EF071 /* App */,
+				6608454124D33E0F00028A38 /* Modules */,
+				6613881E24D31335002CA35C /* Extension */,
+				66AFDC6A24D3003300ABAE8A /* Model */,
+				66AFDC5D24D2F6D100ABAE8A /* Helper */,
+				66AFDC3C24D2EFC500ABAE8A /* AppDelegate.swift */,
+				66AFDC3E24D2EFC500ABAE8A /* SceneDelegate.swift */,
+				66AFDC4224D2EFC500ABAE8A /* Coordination.storyboard */,
+				66AFDC4524D2EFC800ABAE8A /* Assets.xcassets */,
+				66AFDC4724D2EFC800ABAE8A /* LaunchScreen.storyboard */,
+				66AFDC4A24D2EFC800ABAE8A /* Info.plist */,
+				66DA8C7E24D3080D004D7D3D /* AppAssembly.swift */,
+				66DA8C8024D30893004D7D3D /* CoordinationRepo.swift */,
+				663FDB4E24D31B1100543D7C /* main.swift */,
+			);
+			path = "Ishak's Wiki";
+			sourceTree = "<group>";
+		};
+		66AFDC5A24D2F65900ABAE8A /* CoordinationList */ = {
+			isa = PBXGroup;
+			children = (
+				6613882524D315DA002CA35C /* Cells */,
+				66AFDC6224D2F81000ABAE8A /* CoordinationModule.swift */,
+				66AFDC5B24D2F66D00ABAE8A /* CoordinationListViper.swift */,
+				66AFDC4024D2EFC500ABAE8A /* CoordinationListViewController.swift */,
+				66AFDC6424D2F92F00ABAE8A /* CoordinationListPresenter.swift */,
+				66AFDC6624D2FADC00ABAE8A /* CoordinationListInteractor.swift */,
+				6608453924D3209100028A38 /* CoordinationRouter.swift */,
+			);
+			path = CoordinationList;
+			sourceTree = "<group>";
+		};
+		66AFDC5D24D2F6D100ABAE8A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				66AFDC6024D2F70200ABAE8A /* BasePresenter.swift */,
+				6608453F24D33DDA00028A38 /* DispatchMethods.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		66AFDC6A24D3003300ABAE8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66AFDC6824D3002E00ABAE8A /* CoordinationModel.swift */,
+				6613882624D31628002CA35C /* CellData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66DA8C7724D30724004D7D3D /* AddCoordination */ = {
+			isa = PBXGroup;
+			children = (
+				66DA8C7824D3073D004D7D3D /* AddCoordinationModule.swift */,
+				66DA8C7C24D30796004D7D3D /* AddCoordinationViper.swift */,
+				66DA8C7A24D3075B004D7D3D /* AddCoordinationViewController.swift */,
+				6608453D24D325BC00028A38 /* AddCoordinationInteractor.swift */,
+				6608453B24D322B000028A38 /* AddCoordinationPresenter.swift */,
+				6608454224D33E3100028A38 /* AddCoordinationRouter.swift */,
+			);
+			path = AddCoordination;
+			sourceTree = "<group>";
+		};
+		66DDF26624D3751B000EF071 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		6714D6C9245A2B6A00CE5A4A /* Manual Tests */ = {
@@ -7469,6 +7628,7 @@
 				D8479FAC1F222FE90025FD7A /* Wikipedia Stickers */,
 				B0606EAF20AA6FF0006EC6B9 /* WikipediaUITests */,
 				D8B589A621CD05070027083A /* codemirror-config */,
+				66AFDC3B24D2EFC500ABAE8A /* Ishak's Wiki */,
 				D4991437181D51DE00E6073C /* Frameworks */,
 				D4991436181D51DE00E6073C /* Products */,
 				67D6C0152405A3E2005709B1 /* Recovered References */,
@@ -7493,6 +7653,7 @@
 				D8479FAB1F222FE80025FD7A /* Wikipedia Stickers.appex */,
 				B0606EAE20AA6FF0006EC6B9 /* WikipediaUITests.xctest */,
 				D8B589A521CD05070027083A /* codemirror-config */,
+				66AFDC3A24D2EFC500ABAE8A /* Ishak's Wiki.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -8423,6 +8584,23 @@
 			productReference = 0E8380631D64989F0076EDE4 /* ContinueReadingWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		66AFDC3924D2EFC500ABAE8A /* Ishak's Wiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66AFDC5924D2EFC800ABAE8A /* Build configuration list for PBXNativeTarget "Ishak's Wiki" */;
+			buildPhases = (
+				66AFDC3624D2EFC500ABAE8A /* Sources */,
+				66AFDC3724D2EFC500ABAE8A /* Frameworks */,
+				66AFDC3824D2EFC500ABAE8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ishak's Wiki";
+			productName = "Ishak's Wiki";
+			productReference = 66AFDC3A24D2EFC500ABAE8A /* Ishak's Wiki.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B0606EAD20AA6FF0006EC6B9 /* WikipediaUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0606EC320AA6FF0006EC6B9 /* Build configuration list for PBXNativeTarget "WikipediaUITests" */;
@@ -8712,7 +8890,7 @@
 					WMFWelcome,
 				);
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Wikimedia Foundation";
 				TargetAttributes = {
@@ -8729,6 +8907,9 @@
 								enabled = 1;
 							};
 						};
+					};
+					66AFDC3924D2EFC500ABAE8A = {
+						CreatedOnToolsVersion = 11.6;
 					};
 					B0606EAD20AA6FF0006EC6B9 = {
 						CreatedOnToolsVersion = 9.3.1;
@@ -9002,6 +9183,7 @@
 				D870215F1EBA63EE000D02D6 /* localization */,
 				B0606EAD20AA6FF0006EC6B9 /* WikipediaUITests */,
 				D8B589A421CD05070027083A /* codemirror-config */,
+				66AFDC3924D2EFC500ABAE8A /* Ishak's Wiki */,
 			);
 		};
 /* End PBXProject section */
@@ -9013,6 +9195,16 @@
 			files = (
 				0E83806C1D64989F0076EDE4 /* MainInterface.storyboard in Resources */,
 				D890C85D1D772ED3007132C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66AFDC3824D2EFC500ABAE8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AFDC4924D2EFC800ABAE8A /* LaunchScreen.storyboard in Resources */,
+				66AFDC4624D2EFC800ABAE8A /* Assets.xcassets in Resources */,
+				66AFDC4424D2EFC500ABAE8A /* Coordination.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9792,6 +9984,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8EEA0F11D6DF60600D88143 /* WMFTodayContinueReadingWidgetViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66AFDC3624D2EFC500ABAE8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AFDC4124D2EFC500ABAE8A /* CoordinationListViewController.swift in Sources */,
+				66AFDC6524D2F92F00ABAE8A /* CoordinationListPresenter.swift in Sources */,
+				6608454024D33DDA00028A38 /* DispatchMethods.swift in Sources */,
+				663FDB4F24D31B1100543D7C /* main.swift in Sources */,
+				6608453C24D322B000028A38 /* AddCoordinationPresenter.swift in Sources */,
+				66AFDC6724D2FADC00ABAE8A /* CoordinationListInteractor.swift in Sources */,
+				66DA8C7F24D3080D004D7D3D /* AppAssembly.swift in Sources */,
+				66AFDC6324D2F81000ABAE8A /* CoordinationModule.swift in Sources */,
+				66DA8C7B24D3075B004D7D3D /* AddCoordinationViewController.swift in Sources */,
+				6613882224D315C4002CA35C /* CoordinationTableViewCell.swift in Sources */,
+				6613882024D31342002CA35C /* Collection.swift in Sources */,
+				6613882724D31628002CA35C /* CellData.swift in Sources */,
+				66DA8C7924D3073D004D7D3D /* AddCoordinationModule.swift in Sources */,
+				6608453E24D325BC00028A38 /* AddCoordinationInteractor.swift in Sources */,
+				66DA8C7D24D30796004D7D3D /* AddCoordinationViper.swift in Sources */,
+				66AFDC6124D2F70200ABAE8A /* BasePresenter.swift in Sources */,
+				66DA8C8124D30893004D7D3D /* CoordinationRepo.swift in Sources */,
+				6608453A24D3209100028A38 /* CoordinationRouter.swift in Sources */,
+				66AFDC5C24D2F66D00ABAE8A /* CoordinationListViper.swift in Sources */,
+				66AFDC6924D3002E00ABAE8A /* CoordinationModel.swift in Sources */,
+				66AFDC3D24D2EFC500ABAE8A /* AppDelegate.swift in Sources */,
+				6608454324D33E3100028A38 /* AddCoordinationRouter.swift in Sources */,
+				66AFDC3F24D2EFC500ABAE8A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -12196,6 +12418,22 @@
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
+		66AFDC4224D2EFC500ABAE8A /* Coordination.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66AFDC4324D2EFC500ABAE8A /* Base */,
+			);
+			name = Coordination.storyboard;
+			sourceTree = "<group>";
+		};
+		66AFDC4724D2EFC800ABAE8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66AFDC4824D2EFC800ABAE8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		D801C8511EB8E131001FA294 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -12784,6 +13022,431 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wikipedia.app/Wikipedia";
 			};
 			name = Test;
+		};
+		66AFDC4B24D2EFC800ABAE8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66AFDC4C24D2EFC800ABAE8A /* LocalDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = LocalDebug;
+		};
+		66AFDC4D24D2EFC800ABAE8A /* EventLoggingDevDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = EventLoggingDevDebug;
+		};
+		66AFDC4E24D2EFC800ABAE8A /* UITest */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = UITest;
+		};
+		66AFDC4F24D2EFC800ABAE8A /* UserTestingDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = UserTestingDebug;
+		};
+		66AFDC5024D2EFC800ABAE8A /* StagingDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = StagingDebug;
+		};
+		66AFDC5124D2EFC800ABAE8A /* MediaWikiBetaClusterDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = MediaWikiBetaClusterDebug;
+		};
+		66AFDC5224D2EFC800ABAE8A /* ExperimentalDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ExperimentalDebug;
+		};
+		66AFDC5324D2EFC800ABAE8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66AFDC5424D2EFC800ABAE8A /* UserTesting */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = UserTesting;
+		};
+		66AFDC5524D2EFC800ABAE8A /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Staging;
+		};
+		66AFDC5624D2EFC800ABAE8A /* MediaWikiBetaCluster */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = MediaWikiBetaCluster;
+		};
+		66AFDC5724D2EFC800ABAE8A /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Test;
+		};
+		66AFDC5824D2EFC800ABAE8A /* Experimental */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J9YJ28L34Q;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.GucluMedia.Wiki-project.Ishak-s-Wiki";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Experimental;
 		};
 		8350FC3B20DA7F0200C19D60 /* UITest */ = {
 			isa = XCBuildConfiguration;
@@ -20301,6 +20964,27 @@
 				D8CE26C71E698F8E00DAE2E0 /* MediaWikiBetaCluster */,
 				0E8380741D64989F0076EDE4 /* Test */,
 				D858A7FD1DA6DBC8009C3DEB /* Experimental */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66AFDC5924D2EFC800ABAE8A /* Build configuration list for PBXNativeTarget "Ishak's Wiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66AFDC4B24D2EFC800ABAE8A /* Debug */,
+				66AFDC4C24D2EFC800ABAE8A /* LocalDebug */,
+				66AFDC4D24D2EFC800ABAE8A /* EventLoggingDevDebug */,
+				66AFDC4E24D2EFC800ABAE8A /* UITest */,
+				66AFDC4F24D2EFC800ABAE8A /* UserTestingDebug */,
+				66AFDC5024D2EFC800ABAE8A /* StagingDebug */,
+				66AFDC5124D2EFC800ABAE8A /* MediaWikiBetaClusterDebug */,
+				66AFDC5224D2EFC800ABAE8A /* ExperimentalDebug */,
+				66AFDC5324D2EFC800ABAE8A /* Release */,
+				66AFDC5424D2EFC800ABAE8A /* UserTesting */,
+				66AFDC5524D2EFC800ABAE8A /* Staging */,
+				66AFDC5624D2EFC800ABAE8A /* MediaWikiBetaCluster */,
+				66AFDC5724D2EFC800ABAE8A /* Test */,
+				66AFDC5824D2EFC800ABAE8A /* Experimental */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

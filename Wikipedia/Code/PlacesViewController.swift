@@ -1129,6 +1129,15 @@ class PlacesViewController: ViewController, UISearchBarDelegate, ArticlePopoverV
         viewMode = .map
     }
     
+    @objc func moveToSelectedLocation(location: CLLocation) {
+//        let ccc = UIAlertController(title: "location", message: "\(location.coordinate.longitude)", preferredStyle: .alert)
+//        self.present(ccc, animated: true, completion: nil)
+        
+        panMapToNextLocationUpdate = false
+        zoomAndPanMapView(toLocation: location)
+
+    }
+    
     func selectArticlePlace(_ articlePlace: ArticlePlace) {
         mapView.selectAnnotation(articlePlace, animated: articlePlace.identifier != previouslySelectedArticlePlaceIdentifier)
         previouslySelectedArticlePlaceIdentifier = articlePlace.identifier

@@ -1136,6 +1136,12 @@ static const NSString *kvo_SavedArticlesFetcher_progress = @"kvo_SavedArticlesFe
                 [[self placesViewController] updateViewModeToMap];
                 [[self placesViewController] showArticleURL:articleURL];
             }
+            CLLocation* location = activity.wmf_location;
+            if (location) {
+                [[self placesViewController] updateViewModeToMap];
+                [[self placesViewController] moveToSelectedLocationWithLocation: location];
+            }
+            
         } break;
         case WMFUserActivityTypeContent: {
             [self dismissPresentedViewControllers];
