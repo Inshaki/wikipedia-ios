@@ -11,7 +11,15 @@ class CoordinationListViewController: UIViewController {
     
         coordinatesTableView.tableFooterView = UIView()
         // Do any additional setup after loading the view.
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(pulledToRefresh), for: .valueChanged)
+        coordinatesTableView.refreshControl = refreshControl
     }
+    
+    @objc private func pulledToRefresh() {
+        presenter?.refreshDetail()
+    }
+
     
     @IBAction func addCoordinatesButton(_ sender: Any) {
         presenter?.addNewCoordination()
@@ -21,11 +29,11 @@ class CoordinationListViewController: UIViewController {
 extension CoordinationListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let data: DefaultCellData = presenter?.getTableData(row: indexPath.row, section: indexPath.section),
-            let cell = tableView.dequeueReusableCell(withIdentifier: data.getIdentifier()) as? DefaultCellProtocol
+            let cell = tableView.dequeueReusableCell(withIdentifier: data.getIdentifier()) as? (UITableViewCell & DefaultCellProtocol)
             else { return UITableViewCell() }
         
         cell.setData(data: data)
-        return cell as? UITableViewCell ?? UITableViewCell()
+        return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -39,11 +47,8 @@ extension CoordinationListViewController: UITableViewDelegate, UITableViewDataSo
 }
 
 extension CoordinationListViewController: CoordinationListView {
-    func openDialog() {
-            
-    }
-    
     func reloadScreen() {
+        coordinatesTableView.refreshControl?.endRefreshing()
         coordinatesTableView.reloadData()
     }
     

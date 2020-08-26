@@ -15,8 +15,11 @@ class CoordinationListPresenterImpl {
 }
 
 extension CoordinationListPresenterImpl: CoordinationListPresenter {
-    
     func viewDidLoad() {
+        interactor?.fetchLocations(withRefresh: true)
+    }
+    
+    func refreshDetail() {
         interactor?.fetchLocations(withRefresh: true)
     }
     

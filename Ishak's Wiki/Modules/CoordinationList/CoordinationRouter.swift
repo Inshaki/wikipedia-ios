@@ -22,12 +22,8 @@ extension CoordinationRouterImpl: CoordinationRouter {
 
         if app.canOpenURL(appURL) {
 
-             if #available(iOS 10.0, *) {
                  app.open(appURL)
-             }
-             else {
-                 app.openURL(appURL)
-             }
+    
          }
     }
     

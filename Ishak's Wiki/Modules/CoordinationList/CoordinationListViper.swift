@@ -2,8 +2,6 @@
 import Foundation
 protocol CoordinationListView: class {
     var presenter: CoordinationListPresenter? { get set }
-
-    func openDialog()
     func reloadScreen()
 }
 
@@ -11,6 +9,7 @@ protocol CoordinationListPresenter: TablePresenter {
     var view: CoordinationListView? { get set }
     var router: CoordinationRouter? { get set }
     func addNewCoordination()
+    func refreshDetail()
 }
 
 protocol CoordinationListInteractorOutput: class {

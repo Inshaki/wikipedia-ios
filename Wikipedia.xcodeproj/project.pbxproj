@@ -5888,14 +5888,6 @@
 				6613881E24D31335002CA35C /* Extension */,
 				66AFDC6A24D3003300ABAE8A /* Model */,
 				66AFDC5D24D2F6D100ABAE8A /* Helper */,
-				66AFDC3C24D2EFC500ABAE8A /* AppDelegate.swift */,
-				66AFDC3E24D2EFC500ABAE8A /* SceneDelegate.swift */,
-				66AFDC4224D2EFC500ABAE8A /* Coordination.storyboard */,
-				66AFDC4524D2EFC800ABAE8A /* Assets.xcassets */,
-				66AFDC4724D2EFC800ABAE8A /* LaunchScreen.storyboard */,
-				66AFDC4A24D2EFC800ABAE8A /* Info.plist */,
-				66DA8C7E24D3080D004D7D3D /* AppAssembly.swift */,
-				66DA8C8024D30893004D7D3D /* CoordinationRepo.swift */,
 				663FDB4E24D31B1100543D7C /* main.swift */,
 			);
 			path = "Ishak's Wiki";
@@ -5949,6 +5941,14 @@
 		66DDF26624D3751B000EF071 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				66AFDC4224D2EFC500ABAE8A /* Coordination.storyboard */,
+				66AFDC4724D2EFC800ABAE8A /* LaunchScreen.storyboard */,
+				66AFDC4A24D2EFC800ABAE8A /* Info.plist */,
+				66DA8C7E24D3080D004D7D3D /* AppAssembly.swift */,
+				66DA8C8024D30893004D7D3D /* CoordinationRepo.swift */,
+				66AFDC4524D2EFC800ABAE8A /* Assets.xcassets */,
+				66AFDC3E24D2EFC500ABAE8A /* SceneDelegate.swift */,
+				66AFDC3C24D2EFC500ABAE8A /* AppDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -13042,7 +13042,7 @@
 					"$(inherited)",
 				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13074,7 +13074,7 @@
 				DEVELOPMENT_TEAM = J9YJ28L34Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13104,7 +13104,7 @@
 				DEVELOPMENT_TEAM = J9YJ28L34Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13134,7 +13134,7 @@
 				DEVELOPMENT_TEAM = J9YJ28L34Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13164,7 +13164,7 @@
 				DEVELOPMENT_TEAM = J9YJ28L34Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13194,7 +13194,7 @@
 				DEVELOPMENT_TEAM = J9YJ28L34Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13224,7 +13224,7 @@
 				DEVELOPMENT_TEAM = J9YJ28L34Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13254,7 +13254,7 @@
 				DEVELOPMENT_TEAM = J9YJ28L34Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13284,7 +13284,7 @@
 				DEVELOPMENT_TEAM = J9YJ28L34Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13314,7 +13314,7 @@
 				DEVELOPMENT_TEAM = J9YJ28L34Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13344,7 +13344,7 @@
 				DEVELOPMENT_TEAM = J9YJ28L34Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13374,7 +13374,7 @@
 				DEVELOPMENT_TEAM = J9YJ28L34Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13404,7 +13404,7 @@
 				DEVELOPMENT_TEAM = J9YJ28L34Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -13434,7 +13434,7 @@
 				DEVELOPMENT_TEAM = J9YJ28L34Q;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Ishak's Wiki/Info.plist";
+				INFOPLIST_FILE = "Ishak's Wiki/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
